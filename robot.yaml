@@ -1,0 +1,12 @@
+tasks:
+  Run:
+    shell: python test.py
+
+condaConfigFile: conda.yaml
+artifactsDir: output
+PATH:
+  - .
+PYTHONPATH:
+  - .
+ignoreFiles:
+  - .gitignore
