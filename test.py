@@ -6,7 +6,7 @@ sel = Selenium()
 
 
 def test_workforce():
-    sel.open_available_browser("https://yoobot.com.br/")
+    sel.open_chrome_browser("https://yoobot.com.br/")
     sel.maximize_browser_window()
     time.sleep(5)
 
